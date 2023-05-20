@@ -17,7 +17,7 @@ Open registry editor
 
 Go to Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
 
-This is where all Windows Update services are located.
+This is where all Windows Update services are located
 
 
 Find the "DoSvc" service (Delivery Optimization)
@@ -52,12 +52,14 @@ Press OK
 ![step7](https://user-images.githubusercontent.com/62578869/185758788-8eabd435-f061-4027-b9f5-40107eb62c0a.png)
 
 
-Select your account from the list, click "Allow" under full control, click apply, then ok.
+Select your account from the list, click "Allow" under full control, click apply, then ok
 
 ![step8](https://user-images.githubusercontent.com/62578869/185802024-cf1b0796-7b96-4543-a614-2b85394dcfba.png)
 
 
 Repeat this for "UsoSvc" and "WaaSMedicSvc"
+
+This only has to be done once, then the program can toggle on/off at anytime
 
 
 
